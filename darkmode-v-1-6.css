@@ -1,0 +1,1060 @@
+<style>
+	:root {
+  		color-scheme: light dark; /* both supported */
+	}
+	
+	/*body .dark-mode-toggle-dot {
+      	left: 41px;
+  	}
+		
+	body .dark-mode-toggle-dot {	
+  		animation: slidethedot 4s linear;
+	}
+		@keyframes slidethedot {
+  		0%   {left: 7px;}
+  		100% {left: 41px;}
+	}*/
+  
+	body,
+	body .header-bg-color,
+	body .menu-bg-color,
+	body .pt-square,
+	body .preloader,
+  	body .menu-close-icon:hover .close-icon-bar-horizontal-heavy,
+  	body .menu-close-icon:hover .close-icon-bar-vertical-heavy,
+  	body .lightbox,
+	/*body .d-pad-top,
+	body .d-pad-right,
+	body .d-pad-bottom,
+	body .d-pad-left,
+	body .close-icon.close-icon-lightbox,*/
+	body .close-icon .close-icon-bar-horizontal,
+	body .close-icon .close-icon-bar-vertical,
+  	body .close-icon-bar-horizontal-heavy,
+  	body .close-icon-bar-vertical-heavy,
+  	body .form-wrapper,
+  	body .popup-content,
+	body .link.link-light::after,
+  	body .input,
+	body .order-form-container,
+  	body .nice-select,
+	body .form-header,
+	body .nice-select .list,
+	body .dark-mode-toggle-dot,
+	body .select2.select2-container .select2-selection--single .select2-selection__choice,
+	body .select2-container--default .select2-selection--single,
+	body .select2-container .select2-dropdown .select2-results ul {
+     	background: #e6e6e6;
+    }
+
+  	body .close-icon,
+	body .menu-close-icon,
+	body .link-menu::after,
+	body .link::after,
+	/*body .lightbox-elements
+	body .lightbox-title,
+	body .close-icon.close-icon-lightbox .close-icon-bar-horizontal,
+	body .close-icon.close-icon-lightbox .close-icon-bar-vertical,
+	body .lightbox-background-toggle-text,*/
+	body .menu-toggle:hover,
+	body .cart-notification-wrapper,
+	body .nice-select .option:hover,
+  	body .nice-select .option.focus,
+  	body .nice-select .option.selected.focus,
+  	body .nice-select:hover,
+  	body .button:hover,
+  	body .button-rounded,
+  	body .button-rounded-invert:hover,
+  	body .question-mark,
+  	body .dark-mode-toggle,
+	body .underline,
+	body .button-rounded-invert.button-square.button-square-activated,
+	body .select2-container .select2-dropdown .select2-results ul .select2-results__option--highlighted[aria--selected],
+	body .select2.select2-container .select2-selection--single .select2-selection__choice .select2-selection__choice__remove,
+	body .select2-container--default .select2-results__option--selected,
+	body .select2-container .select2-dropdown .select2-results ul .select2-results__option--highlighted[aria--selected]:hover,
+	body .select2-container--default .select2-results__option--highlighted.select2-results__option--selectable {
+  		background: #0A0A0A;
+  	}
+  
+  	body,
+	body a,
+	body h1,
+	body h2,
+	body h3,
+	body .heading,
+  	body .link,
+  	body .button,
+  	body .text-dark,
+	body .label,
+  	body .input,
+	body .button-rounded:hover,
+	body .button-rounded-invert,
+  	body .nice-select .list,
+  	body .nice-select .list:hover .option:not(:hover),
+  	body span.current,
+	body .select2.select2-container .select2-selection .select2-selection__rendered,
+	body .select2-container--default .select2-selection--single .select2-selection__placeholder,
+	body .select2.select2-container .select2-selection--single .select2-selection__choice {
+      	color: #0A0A0A;
+  	}
+  
+  	body .nice-select.w-select:hover span.current,
+  	body .nice-select .option:hover,
+	body .menu-toggle:hover,
+	body h3.heading-3-light,
+  	body .nice-select .option.focus,
+  	body .nice-select .option.selected.focus,
+  	body .nice-select .option:hover,
+  	body .button:hover,
+	/*body .lightbox-elements,
+	body .lightbox-title,*/
+  	body .button-rounded,
+	/*body .lightbox-background-toggle-text,*/
+  	body .menu-toggle,
+	body .menu-close-icon,
+	body .link-light,
+  	body .button-rounded-invert:hover,
+  	body .question-mark,
+  	body .heading-image-invert,
+	body .button-rounded-invert.button-square.button-square-activated,
+	body .select2-container--default .select2-results__option--selected,
+	body .select2-container .select2-dropdown .select2-results ul .select2-results__option--highlighted[aria--selected],
+	body .select2-container .select2-dropdown .select2-results ul .select2-results__option--highlighted[aria--selected]:hover,
+	body .select2-container--default .select2-results__option--highlighted.select2-results__option--selectable {
+    	color: #e6e6e6;
+  	}
+  
+  	body .button,
+	body .header-bg-color,
+  	body .menu-toggle,
+  	body .grid-custom,
+  	body .popup-content,
+  	body .input,
+  	body .arrow,
+	body .seperation-line,
+	body .indent-text,
+  	body .marquee-horizontal-bottom,	
+	body .menu-toggle:hover,
+  	body .form-wrapper,
+  	body .checkbox,
+	body .order-process-wrapper,
+	body .button-rounded,
+	body .button-rounded-invert,
+  	body .image-about-portret,
+  	body .nice-select,
+	body .order-form-container,
+  	body .nice-select:hover,
+  	body .nice-select:active,
+  	body .nice-select.open,
+  	body .nice-select:focus,
+  	body .nice-select:after,
+  	body .nice-select .list,
+	body .item-cart,
+	body #item-cart-none,
+	body .price-value,
+	body .select2-results__option:nth-child(4),
+	body .select2-container .select2-dropdown .select2-results ul,
+	body .select2-container--default .select2-selection--single {
+    	border-color: #0A0A0A;
+  	}
+
+	body .button-rounded:hover,
+	body .button-rounded-invert {
+		background: transparent;
+	}
+  
+	body .nice-select:hover:after {
+  		border-color: #e6e6e6;
+  	}
+
+	body .text-grey {
+		color: #cccccc;
+	}
+  
+  	body .instagram-image,
+  	body .instagram-filter,
+  	body .enlarge-icon,
+  	body .grid-icon {
+		fill: #0A0A0A;
+  	}
+
+  	body .cart-icon {
+		fill: #e6e6e6;
+  	}
+
+  	body .cart-icon-invert {
+		fill: #0A0A0A;
+  	}
+
+	body .button-rounded:hover .cart-icon {
+		fill: #0A0A0A;		
+	}
+
+	body .select2-container--default .select2-selection--single .select2-selection__arrow b {
+		border-color: #0A0A0A transparent transparent transparent;
+	}
+
+	body .select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b 	{
+		border-color: transparent transparent #0A0A0A transparent;
+	}
+
+	/*body .zoom-in-icon-lightbox,
+	body .zoom-out-icon-lightbox,
+	body .shop-icon-lightbox {
+		fill: #e6e6e6;
+	}*/
+  
+  	body .order-form {
+    	background: rgba(230, 230, 230, 0.85);
+  	}
+
+  	body .order-form-wrapper {
+    	background: rgba(230, 230, 230, 0.85);
+  	}
+
+  	body .form-header {
+    	background: rgba(230, 230, 230, 0.85);
+  	}
+
+	body .menu-bg-color,
+  	body .menu-subpage-background {
+		background: #e6e6e6;
+	}
+
+	body .background-home-image {
+  		background-image: url("https://uploads-ssl.webflow.com/6296730d233387c2703a6964/62e5c72286728d514bf74355_portret-light-silvan-soeters-photography-prints.jpg");
+	}
+	
+	body .language-notification-wrapper {
+		background: rgba(10, 10, 10, 0.45);
+	}
+
+	/*body .background-menu-overlay {
+		background: rgba(230, 230, 230, 0.3);
+	}*/
+  
+  	/*body .form-wrapper {
+      	box-shadow: 10px 10px 0 0 #0A0A0A;
+  	}*/
+
+	/*body .lightbox-image {
+		box-shadow: 0 0 0 0.0625rem #0A0A0A;
+	}*/
+
+	body .arrow {
+		fill: #0A0A0A;
+	}
+	
+	body .about-image,
+	body .slider {
+		filter: contrast(100%) brightness(100%);
+	}
+	
+  /*@media only screen and (max-width: 478px) {
+  	body .nice-select:hover {
+    	background: #e6e6e6;
+		}
+	}
+	
+  @media only screen and (max-width: 478px) {
+	body .nice-select.w-select:hover span.current {
+		color: #0A0A0A;
+		}
+	}
+	
+  @media only screen and (max-width: 478px) {
+  	body .nice-select:after {
+		border-color: #0A0A0A;
+		}
+	}*/
+	
+	/*body .marquee-horizontal-bottom {
+		box-shadow: 0 0 10px 0 hsla(0, 0.00%, 26.00%, 1.00);
+	}*/
+
+	/* Dark theme colors */
+	/*body.dark-theme .dark-mode-toggle-dot {
+      	left: 7px;
+  	}*/
+  
+	body.dark-theme,
+	body.dark-theme .preloader,
+	body.dark-theme .header-bg-color,
+	body.dark-theme .menu-bg-color,
+	body.dark-theme .pt-square,
+	body.dark-theme .order-form-container,
+	body.dark-theme .form-header,
+	body.dark-theme .button-rounded:hover,
+	body.dark-theme .button-rounded-invert,
+  	body.dark-theme .menu-close-icon:hover .close-icon-bar-horizontal-heavy,
+  	body.dark-theme .menu-close-icon:hover .close-icon-bar-vertical-heavy,
+  	body.dark-theme .close-icon-bar-horizontal-heavy,
+  	body.dark-theme .close-icon-bar-vertical-heavy,
+  	body.dark-theme .lightbox,
+	/*body.dark-theme .close-icon.close-icon-lightbox,
+	body.dark-theme .d-pad-top,
+	body.dark-theme .d-pad-right,
+	body.dark-theme .d-pad-bottom,
+	body.dark-theme .d-pad-left,*/
+	body.dark-theme .link.link-light::after,
+	body.dark-theme	.close-icon .close-icon-bar-horizontal,
+	body.dark-theme	.close-icon .close-icon-bar-vertical,
+  	body.dark-theme .form-wrapper,
+  	body.dark-theme .popup-content,
+  	body.dark-theme .input,
+  	body.dark-theme .nice-select,
+	body.dark-theme .nice-select .list,
+	body.dark-theme .dark-mode-toggle-dot,
+	body.dark-theme .select2.select2-container .select2-selection--single .select2-selection__choice,
+	body.dark-theme .select2-container--default .select2-selection--single,
+	body.dark-theme .select2-container .select2-dropdown .select2-results ul {
+     	background: #121212;
+    }
+  
+  	body.dark-theme .close-icon,
+	body.dark-theme .menu-close-icon,
+	body.dark-theme .link-menu::after,
+	body.dark-theme .link::after,
+	/*body.dark-theme .lightbox-elements,
+	body.dark-theme .lightbox-title,
+	body.dark-theme .close-icon.close-icon-lightbox .close-icon-bar-horizontal,
+	body.dark-theme .close-icon.close-icon-lightbox .close-icon-bar-vertical,
+	body.dark-theme .lightbox-background-toggle-text,*/
+	body.dark-theme .nice-select .option:hover,
+  	body.dark-theme .nice-select .option.focus,
+  	body.dark-theme .nice-select .option.selected.focus,
+  	body.dark-theme .nice-select:hover,
+  	body.dark-theme .button:hover,
+	body.dark-theme .cart-notification-wrapper,
+  	body.dark-theme .button-rounded,
+  	body.dark-theme .button-rounded-invert:hover,
+	body.dark-theme .menu-toggle:hover,
+  	body.dark-theme .question-mark,
+  	body.dark-theme .dark-mode-toggle,
+	body.dark-theme .underline,
+	body.dark-theme .button-rounded-invert.button-square.button-square-activated,
+	body.dark-theme .select2-container .select2-dropdown .select2-results ul .select2-results__option--highlighted[aria--selected],
+	body.dark-theme .select2.select2-container .select2-selection--single .select2-selection__choice .select2-selection__choice__remove,
+	body.dark-theme .select2-container--default .select2-results__option--selected,
+	body.dark-theme .select2-container .select2-dropdown .select2-results ul .select2-results__option--highlighted[aria--selected]:hover,
+	body.dark-theme .select2-container--default .select2-results__option--highlighted.select2-results__option--selectable {
+  		background: #e2e2e2;
+  	}
+  
+	body.dark-theme,
+	body.dark-theme a,
+	body.dark-theme h1,
+	body.dark-theme h2,
+	body.dark-theme h3,
+	body.dark-theme .heading,
+  	body.dark-theme .link,
+  	body.dark-theme .button,
+  	body.dark-theme .text-dark,
+	body.dark-theme .button-rounded:hover,
+	body.dark-theme .button-rounded-invert,
+  	body.dark-theme .menu-toggle,
+	body.dark-theme .label,
+  	body.dark-theme .input,
+  	body.dark-theme .nice-select .list,
+  	body.dark-theme .nice-select .list:hover .option:not(:hover),
+  	body.dark-theme span.current,
+	body.dark-theme .select2.select2-container .select2-selection .select2-selection__rendered,
+	body.dark-theme .select2-container--default .select2-selection--single .select2-selection__placeholder,
+	body.dark-theme .select2.select2-container .select2-selection--single .select2-selection__choice {
+      	color: #e2e2e2;
+  	}
+  
+  	body.dark-theme .nice-select.w-select:hover span.current,
+  	body.dark-theme .nice-select .option:hover,
+  	body.dark-theme .nice-select .option.focus,
+	body.dark-theme .menu-close-icon,
+	/*body.dark-theme .lightbox-background-toggle-text,*/
+  	body.dark-theme .button-rounded,
+	body.dark-theme .link-light,
+	/*body.dark-theme .lightbox-elements,
+	body.dark-theme .lightbox-title,*/
+  	body.dark-theme .button-rounded-invert:hover,
+  	body.dark-theme .nice-select .option.selected.focus,
+  	body.dark-theme .nice-select .option:hover,
+  	body.dark-theme .button:hover,
+	body.dark-theme .menu-toggle:hover,
+  	body.dark-theme .question-mark,
+	body.dark-theme .button-rounded-invert.button-square.button-square-activated,
+	body.dark-theme .select2-container--default .select2-results__option--selected,
+	body.dark-theme .select2-container .select2-dropdown .select2-results ul .select2-results__option--highlighted[aria--selected],
+	body.dark-theme .select2-container .select2-dropdown .select2-results ul .select2-results__option--highlighted[aria--selected]:hover,
+	body.dark-theme .select2-container--default .select2-results__option--highlighted.select2-results__option--selectable {
+    	color: #121212;  
+  	}
+  
+  	body.dark-theme .button,
+	body.dark-theme .header-bg-color,
+  	body.dark-theme .menu-toggle,
+  	body.dark-theme .grid-custom,
+  	body.dark-theme .popup-content,
+  	body.dark-theme .input,
+	body.dark-theme .seperation-line,
+	body.dark-theme .order-process-wrapper,
+	body.dark-theme .order-form-container,
+  	body.dark-theme .arrow,
+	body.dark-theme .indent-text,
+	body.dark-theme .button-rounded,
+	body.dark-theme .button-rounded-invert,
+  	body.dark-theme .form-wrapper,
+  	body.dark-theme .checkbox,
+  	body.dark-theme .marquee-horizontal-bottom,
+  	body.dark-theme .image-about-portret,
+  	body.dark-theme .nice-select,
+  	body.dark-theme .nice-select:hover,
+  	body.dark-theme .nice-select:active,
+  	body.dark-theme .nice-select.open,
+  	body.dark-theme .nice-select:focus,
+  	body.dark-theme .nice-select:after,
+  	body.dark-theme .nice-select .list,
+	body.dark-theme #item-cart-none,
+	body.dark-theme .item-cart,
+	body.dark-theme .price-value,
+	body.dark-theme .select2-results__option:nth-child(4),
+	body.dark-theme .select2-container .select2-dropdown .select2-results ul,
+	body.dark-theme .select2-container--default .select2-selection--single {
+    	border-color: #e2e2e2;
+  	}
+
+	body.dark-theme .text-grey {
+		color: #323232;
+	}
+
+	body.dark-theme .button-rounded:hover {
+		background: transparent;
+	}
+	
+	body.dark-theme .button-rounded-invert {
+		background: transparent;
+	}
+  
+	body.dark-theme .nice-select:hover:after {
+  		border-color: #121212;
+  	}
+  
+  	body.dark-theme .instagram-image,
+  	body.dark-theme .instagram-filter,
+  	body.dark-theme .enlarge-icon,
+  	body.dark-theme .grid-icon {
+		fill: #e2e2e2;
+  	}
+
+	body.dark-theme .cart-icon {
+		fill: #121212;
+  	}
+
+	body.dark-theme .cart-icon-invert {
+		fill: #e2e2e2;
+  	}
+
+	body.dark-theme .button-rounded:hover .cart-icon {
+		fill: #e2e2e2;		
+	}
+
+	/*body.dark-theme .zoom-in-icon-lightbox,
+	body.dark-theme .zoom-out-icon-lightbox,
+	body.dark-theme .shop-icon-lightbox {
+		fill: #121212;
+	}*/
+  
+  	body.dark-theme .order-form {
+    	background: rgba(18, 18, 18, 0.85);
+  	}
+
+  	body.dark-theme .order-form-wrapper {
+    	background: rgba(18, 18, 18, 0.85);
+  	}
+
+  	body.dark-theme .form-header {
+    	background: rgba(18, 18, 18, 0.85);
+  	}
+
+	body.dark-theme .menu-bg-color,
+  	body.dark-theme .menu-subpage-background {
+		background: #121212;
+	}
+	
+	body.dark-theme .language-notification-wrapper {
+		background: rgba(230, 230, 230, 0.45);
+	}
+
+	body .select2-container--default .select2-selection--single .select2-selection__arrow b {
+		border-color: #e2e2e2 transparent transparent transparent;
+	}
+
+	body .select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b 	{
+		border-color: transparent transparent #e2e2e2 transparent;
+	}
+	
+	/*body.dark-theme .marquee-horizontal-bottom {
+		box-shadow: 0 0 12px 0 hsla(0, 0.00%, 0.00%, 1.00);
+	}*/
+
+	/*body.dark-theme .background-menu-overlay {
+		background: rgba(18, 18, 18, 0.3);
+	}*/
+	
+	body.dark-theme .background-home-image {
+  		background-image: url("https://uploads-ssl.webflow.com/6296730d233387c2703a6964/62e5bf8c438313e901324f0d_portret-dark-silvan-soeters-photography-prints.jpg");
+	}
+  
+  	/*body.dark-theme .form-wrapper {
+      	box-shadow: 10px 10px 0 0 #e2e2e2;
+  	}*/
+
+	/*body.dark-theme .lightbox-image {
+		box-shadow: 0 0 0 0.0625rem #e2e2e2;
+	}*/
+
+	body.dark-theme .arrow {
+		fill: #e2e2e2;
+	}
+	
+	body .about-image,
+	body .slider {
+		filter: contrast(105%) brightness(90%);
+	}
+
+@media (prefers-color-scheme: dark) {
+  	/* defaults to dark theme */
+	/*body .dark-mode-toggle-dot {
+      	left: 7px;
+  	}*/
+  
+	body,
+	body .header-bg-color,
+	body .menu-bg-color,
+	body .pt-square,
+	body .preloader,
+	body .order-form-container,
+	body .form-header,
+  	body .menu-close-icon:hover .close-icon-bar-horizontal-heavy,
+  	body .menu-close-icon:hover .close-icon-bar-vertical-heavy,
+  	body .close-icon-bar-horizontal-heavy,
+  	body .close-icon-bar-vertical-heavy,
+	/*body .close-icon.close-icon-lightbox,*/
+  	body .lightbox,
+	/*body .d-pad-top,
+	body .d-pad-right,
+	body .d-pad-bottom,
+	body .d-pad-left,*/
+	body .link.link-light::after,
+	body .button-rounded:hover,
+	body .button-rounded-invert,
+	body .close-icon .close-icon-bar-horizontal,
+	body .close-icon .close-icon-bar-vertical,
+  	body .form-wrapper,
+  	body .popup-content,
+  	body .input,
+  	body .nice-select,
+	body .nice-select .list,
+	body .dark-mode-toggle-dot,
+	body .select2.select2-container .select2-selection--single .select2-selection__choice,
+	body .select2-container--default .select2-selection--single,
+	body .select2-container .select2-dropdown .select2-results ul {
+     	background: #121212; 
+    }
+  
+	body .close-icon,
+	body .menu-close-icon,
+	body .link-menu::after,
+	body .link::after,
+	/*body .lightbox-title,
+	body .lightbox-elements,
+	body .close-icon.close-icon-lightbox .close-icon-bar-horizontal,
+	body .close-icon.close-icon-lightbox .close-icon-bar-vertical,
+	body .lightbox-background-toggle-text,*/
+	body .nice-select .option:hover,
+  	body .nice-select .option.focus,
+  	body .nice-select .option.selected.focus,
+  	body .nice-select:hover,
+  	body .button:hover,
+  	body .button-rounded,
+  	body .button-rounded-invert:hover,
+	body .menu-toggle:hover,
+  	body .question-mark,
+	body .cart-notification-wrapper,
+  	body .dark-mode-toggle,
+	body .underline,
+	body .button-rounded-invert.button-square.button-square-activated,
+	body .select2-container .select2-dropdown .select2-results ul .select2-results__option--highlighted[aria--selected],
+	body .select2.select2-container .select2-selection--single .select2-selection__choice .select2-selection__choice__remove,
+	body .select2-container--default .select2-results__option--selected,
+	body .select2-container .select2-dropdown .select2-results ul .select2-results__option--highlighted[aria--selected]:hover,
+	body .select2-container--default .select2-results__option--highlighted.select2-results__option--selectable {
+  		background: #e2e2e2;
+  	}
+  
+	body,
+	body a,
+	body h1,
+	body h2,
+	body h3,
+  	body .heading,
+  	body .link,
+  	body .button,
+  	body .text-dark,
+  	body .menu-toggle,
+	body .button-rounded:hover,
+	body .button-rounded-invert,
+	body .label,
+  	body .input,
+  	body .nice-select .list,
+  	body .nice-select .list:hover .option:not(:hover),
+  	body span.current,
+	body .select2.select2-container .select2-selection .select2-selection__rendered,
+	body .select2-container--default .select2-selection--single .select2-selection__placeholder,
+	body .select2.select2-container .select2-selection--single .select2-selection__choice {
+      	color: #e2e2e2;
+  	}
+  
+  	body .nice-select.w-select:hover span.current,
+  	body .nice-select .option:hover,
+	body .menu-close-icon,
+  	body .button-rounded,
+  	body .button-rounded-invert:hover,
+	body .link-light,
+	/*body .lightbox-elements,
+	body .lightbox-title,
+	body .lightbox-background-toggle-text,*/
+	body .link-light::after,
+  	body .nice-select .option.focus,
+  	body .nice-select .option.selected.focus,
+  	body .nice-select .option:hover,
+  	body .button:hover,
+	body .menu-toggle:hover,
+  	body .question-mark,
+	body .button-rounded-invert.button-square.button-square-activated,
+	body .select2-container--default .select2-results__option--selected,
+	body .select2-container .select2-dropdown .select2-results ul .select2-results__option--highlighted[aria--selected],
+	body .select2-container .select2-dropdown .select2-results ul .select2-results__option--highlighted[aria--selected]:hover,
+	body .select2-container--default .select2-results__option--highlighted.select2-results__option--selectable {
+    	color: #121212;  
+  	}
+  
+  	body .button,
+	body .header-bg-color,
+  	body .menu-toggle,
+  	body .grid-custom,
+  	body .popup-content,
+  	body .input,
+  	body .arrow,
+  	body .form-wrapper,
+  	body .marquee-horizontal-bottom,
+  	body .checkbox,
+	body .order-form-container,
+	body .button-rounded,
+	body .order-process-wrapper,
+	body .indent-text,
+	body .seperation-line,	
+	body .button-rounded-invert,
+  	body .image-about-portret,
+  	body .nice-select,
+  	body .nice-select:hover,
+  	body .nice-select:active,
+  	body .nice-select.open,
+  	body .nice-select:focus,
+  	body .nice-select:after,
+  	body .nice-select .list,
+	body #item-cart-none,
+	body .item-cart,
+	body .price-value,
+	body .select2-results__option:nth-child(4),
+	body .select2-container .select2-dropdown .select2-results ul,
+	body .select2-container--default .select2-selection--single {
+    	border-color: #e2e2e2;
+  	}
+
+	body .text-grey {
+		color: #323232;
+	}
+  
+	body .nice-select:hover:after {
+  		border-color: #121212;
+  	}
+
+	body .button-rounded:hover {
+		background: transparent;
+	}
+	
+	body .button-rounded-invert {
+		background: transparent;
+	}
+  
+  	body .instagram-image,
+  	body .instagram-filter,
+  	body .enlarge-icon,
+  	body .grid-icon {
+		fill: #e2e2e2;
+  	}
+
+	body .cart-icon {
+		fill: #121212;
+  	}
+
+	body .cart-icon-invert {
+		fill: #e2e2e2;
+  	}
+
+	body .button-rounded:hover .cart-icon {
+		fill: #e2e2e2;		
+	}
+
+	/*body .zoom-in-icon-lightbox,
+	body .zoom-out-icon-lightbox,
+	body .shop-icon-lightbox {
+		fill: #121212;
+	}*/
+
+  	body .order-form {
+    	background: rgba(18, 18, 18, 0.85);
+  	}
+
+  	body .order-form-wrapper {
+    	background: rgba(18, 18, 18, 0.85);
+  	}
+
+  	body .form-header {
+    	background: rgba(18, 18, 18, 0.85);
+  	}
+
+	body .menu-bg-color,
+  	body .menu-subpage-background {
+		background: #121212;
+	}
+	
+	/*body .marquee-horizontal-bottom {
+		box-shadow: 0 0 12px 0 hsla(0, 0.00%, 0.00%, 1.00);
+	}*/
+
+	body .select2-container--default .select2-selection--single .select2-selection__arrow b {
+		border-color: #e2e2e2 transparent transparent transparent;
+	}
+
+	body .select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b 	{
+		border-color: transparent transparent #e2e2e2 transparent;
+	}
+
+	/*body .background-menu-overlay {
+		background: rgba(18, 18, 18, 0.3);
+	}*/
+	
+	body .language-notification-wrapper {
+		background: rgba(230, 230, 230, 0.45);
+	}
+	
+	body .background-home-image {
+  		background-image: url("https://uploads-ssl.webflow.com/6296730d233387c2703a6964/62e5bf8c438313e901324f0d_portret-dark-silvan-soeters-photography-prints.jpg");
+	}	
+	
+  
+  	/*body .form-wrapper {
+      	box-shadow: 10px 10px 0 0 #e2e2e2;
+  	}*/
+
+	/*body .lightbox-image {
+		box-shadow: 0 0 0 0.0625rem #e2e2e2;
+	}*/
+
+	body .arrow {
+		fill: #e2e2e2;
+	}
+	
+	body .about-image,
+	body .slider {
+		filter: contrast(105%) brightness(90%);
+	}
+
+  /* Override dark mode with light mode styles if the user decides to swap */
+	/*body.light-theme .dark-mode-toggle-dot {
+      	left: 41px;
+  	}*/
+  
+	body.light-theme,
+	body.light-theme .preloader,
+	body.light-theme .header-bg-color,
+	body.light-theme .menu-bg-color,
+	body.light-theme .pt-square,
+	body.light-theme .order-form-container,
+	body.light-theme .form-header,
+  	body.light-theme .menu-close-icon:hover .close-icon-bar-horizontal-heavy,
+  	body.light-theme .menu-close-icon:hover .close-icon-bar-vertical-heavy,
+  	body.light-theme .lightbox,
+	/*body.light-theme .d-pad-top,
+	body.light-theme .d-pad-right,
+	body.light-theme .d-pad-bottom,
+	body.light-theme .d-pad-left,
+	body.light-theme .close-icon.close-icon-lightbox,*/
+	body.light-theme .link.link-light::after,
+	body.light-theme	.close-icon .close-icon-bar-horizontal,
+	body.light-theme	.close-icon .close-icon-bar-vertical,
+  	body.light-theme .close-icon-bar-horizontal-heavy,
+  	body.light-theme .close-icon-bar-vertical-heavy,
+  	body.light-theme .form-wrapper,
+  	body.light-theme .popup-content,
+  	body.light-theme .input,
+  	body.light-theme .button-rounded:hover,
+  	body.light-theme .button-rounded-invert,
+  	body.light-theme .nice-select,
+	body.light-theme .nice-select .list,
+	body.light-theme .dark-mode-toggle-dot,
+	body.light-theme .select2.select2-container .select2-selection--single .select2-selection__choice,
+	body.light-theme .select2-container--default .select2-selection--single,
+	body.light-theme .select2-container .select2-dropdown .select2-results ul {
+     	background: #e6e6e6; 
+    }
+  
+  	body.light-theme .close-icon,
+	body.light-theme .menu-close-icon,
+	body.light-theme .link-menu::after,
+	body.light-theme .link::after,
+	/*body.light-theme .lightbox-elements,
+	body.light-theme .lightbox-title,
+	body.light-theme .close-icon.close-icon-lightbox .close-icon-bar-horizontal,
+	body.light-theme .close-icon.close-icon-lightbox .close-icon-bar-vertical,*/
+	body.light-theme .menu-toggle:hover,
+	/*body.light-theme .lightbox-background-toggle-text,*/
+	body.light-theme .nice-select .option:hover,
+  	body.light-theme .nice-select .option.focus,
+  	body.light-theme .nice-select .option.selected.focus,
+  	body.light-theme .nice-select:hover,
+  	body.light-theme .button:hover,
+  	body.light-theme .button-rounded,
+  	body.light-theme .button-rounded-invert:hover,
+  	body.light-theme .question-mark,
+	body.light-theme .cart-notification-wrapper,
+  	body.light-theme .dark-mode-toggle,
+	body.light-theme .underline,
+	body.light-theme .button-rounded-invert.button-square.button-square-activated,
+	body.light-theme .select2-container .select2-dropdown .select2-results ul .select2-results__option--highlighted[aria-selected],
+	body.light-theme .select2.select2-container .select2-selection--single .select2-selection__choice .select2-selection__choice__remove,
+	body.light-theme .select2-container--default .select2-results__option--selected,
+	body.light-theme .select2-container .select2-dropdown .select2-results ul .select2-results__option--highlighted[aria-selected]:hover,
+	body.light-theme .select2-container--default .select2-results__option--highlighted.select2-results__option--selectable {
+  		background: #0A0A0A;
+  	}
+  
+	body.light-theme,
+	body.light-theme a,
+	body.light-theme h1,
+	body.light-theme h2,
+	body.light-theme h3,
+  	body.light-theme .heading,
+  	body.light-theme .link,
+  	body.light-theme .button,
+  	body.light-theme .text-dark,
+	body.light-theme .label,
+  	body.light-theme .button-rounded:hover,
+  	body.light-theme .button-rounded-invert,
+  	body.light-theme .input,
+  	body.light-theme .nice-select .list,
+  	body.light-theme .nice-select .list:hover .option:not(:hover),
+  	body.light-theme span.current,
+	body.light-theme .select2.select2-container .select2-selection .select2-selection__rendered,
+	body.light-theme .select2-container--default .select2-selection--single .select2-selection__placeholder,
+	body.light-theme .select2.select2-container .select2-selection--single .select2-selection__choice {
+      	color: #0A0A0A;
+  	}
+  
+  	body.light-theme .nice-select.w-select:hover span.current,
+  	body.light-theme .nice-select .option:hover,
+	body.light-theme .menu-close-icon,
+	body.light-theme .menu-toggle:hover,
+	body.light-theme .link-light,
+	body h3.heading-3-light,
+  	body.light-theme .menu-toggle,
+	/*body.light-theme .lightbox-elements,
+	body.light-theme .lightbox-title,
+	body.light-theme .lightbox-background-toggle-text,*/
+	body.light-theme .link-light::after,
+  	body.light-theme .nice-select .option.focus,
+  	body.light-theme .nice-select .option.selected.focus,
+  	body.light-theme .nice-select .option:hover,
+  	body.light-theme .button:hover,
+  	body.light-theme .button-rounded,
+  	body.light-theme .button-rounded-invert:hover,
+  	body.light-theme .question-mark,
+	body.light-theme .button-rounded-invert.button-square.button-square-activated,
+  	body.light-theme .heading-image-invert,
+	body.light-theme .select2-container--default .select2-results__option--selected,
+	body.light-theme .select2-container .select2-dropdown .select2-results ul .select2-results__option--highlighted[aria-selected],
+	body.light-theme .select2-container .select2-dropdown .select2-results ul .select2-results__option--highlighted[aria-selected]:hover,
+	body.light-theme .select2-container--default .select2-results__option--highlighted.select2-results__option--selectable {
+    	color: #e6e6e6;  
+  	}
+  
+  	body.light-theme .button,
+	body.light-theme .header-bg-color,
+  	body.light-theme .menu-toggle,
+  	body.light-theme .grid-custom,
+  	body.light-theme .popup-content,
+  	body.light-theme .input,
+	body.light-theme .order-process-wrapper,
+  	body.light-theme .arrow,
+	body.light-theme .seperation-line,
+	body.light-theme .indent-text,
+	body.light-theme .order-form-container,
+  	body.light-theme .button-rounded,
+  	body.light-theme .button-rounded-invert,
+  	body.light-theme .marquee-horizontal-bottom,
+  	body.light-theme .form-wrapper,
+  	body.light-theme .checkbox,
+  	body.light-theme .image-about-portret,
+  	body.light-theme .nice-select,
+	body.light-theme .menu-toggle:hover,
+  	body.light-theme .nice-select:hover,
+  	body.light-theme .nice-select:active,
+  	body.light-theme .nice-select.open,
+  	body.light-theme .nice-select:focus,
+  	body.light-theme .nice-select:after,
+  	body.light-theme .nice-select .list,
+	body.light-theme #item-cart-none,
+	body.light-theme .item-cart,
+	body.light-theme .price-value,
+	body.light-theme .select2-results__option:nth-child(4),
+	body.light-theme .select2-container .select2-dropdown .select2-results ul,
+	body.light-theme .select2-container--default .select2-selection--single {
+    	border-color: #0A0A0A;
+  	}
+
+	body.light-theme .button-rounded:hover,
+	body.light-theme .button-rounded-invert {
+		background: transparent;
+	}
+  
+	body.light-theme .nice-select:hover:after {
+  		border-color: #e6e6e6;
+  	}
+  
+  	body.light-theme .instagram-image,
+  	body.light-theme .enlarge-icon,
+  	body.light-theme .instagram-filter,
+  	body.light-theme .grid-icon {
+		fill: #0A0A0A;
+  	}
+
+	body.light-theme .cart-icon {
+		fill: #e6e6e6;
+  	}
+
+	body.light-theme .button-rounded:hover .cart-icon {
+		fill: #0A0A0A;		
+	}
+
+	body.light-theme .text-grey {
+		color: #cccccc;
+	}
+
+	/*body.light-theme .zoom-in-icon-lightbox,
+	body.light-theme .zoom-out-icon-lightbox,
+	body.light-theme .shop-icon-lightbox {
+		fill: #e6e6e6;
+	}*/
+  
+  	body.light-theme .order-form {
+    	background: rgba(230, 230, 230, 0.85);
+  	}
+
+  	body.light-theme .form-header {
+    	background: rgba(230, 230, 230, 0.85);
+  	}
+
+	body.light-theme .menu-bg-color,
+  	body.light-theme .menu-subpage-background {
+		background: #e6e6e6;
+	}
+	
+	body.light-theme .gradient-shadow-about {
+		background-image: none;
+	}
+  
+	/*body.light-theme .background-menu-overlay {
+		background: rgba(230, 230, 230, 0.3);
+	}*/
+	
+	body.light-theme .background-home-image {
+  		background-image: url("https://uploads-ssl.webflow.com/6296730d233387c2703a6964/62e5c72286728d514bf74355_portret-light-silvan-soeters-photography-prints.jpg");
+	}
+	
+	body.light-theme .language-notification-wrapper {
+		background: rgba(10, 10, 10, 0.45);
+	}
+	
+  	body.light-theme .order-form-wrapper {
+    	background: rgba(230, 230, 230, 0.85);
+  	}
+
+  	/*body.light-theme .form-wrapper {
+      	box-shadow: 10px 10px 0 0 #0A0A0A;
+  	}*/
+
+	/*body.light-theme .lightbox-image {
+		box-shadow: 0 0 0 0.0625rem #0A0A0A;
+	}*/
+
+	body.light-theme .arrow {
+		fill: #0A0A0A;
+	}
+	
+  	body.light-theme .cart-icon-invert {
+		fill: #0A0A0A;
+  	}
+	
+	body.light-theme .about-image,
+	body.light-theme .slider {
+		filter: contrast(100%) brightness(100%);
+	}
+	
+	body.light-theme .select2-container--default .select2-selection--single .select2-selection__arrow b {
+		border-color: #0A0A0A transparent transparent transparent;
+	}
+
+	body.light-theme .select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b 	{
+		border-color: transparent transparent #0A0A0A transparent;
+	}
+	
+  /*@media only screen and (max-width: 478px) {
+  	body.light-theme .nice-select:hover {
+    	background: #e6e6e6;
+		}
+	}
+	
+  @media only screen and (max-width: 478px) {
+	body .nice-select.w-select:hover span.current {
+		color: #0A0A0A;
+		}
+	}
+	
+  @media only screen and (max-width: 478px) {
+  	body.light-theme .nice-select:after {
+		border-color: #0A0A0A;
+		}
+	}*/
+  }
+</style>
+
+<style>
+  	/* After click shop icon in header on the right side or click link Prints Order Form on About page */
+  	.orderFormVisible #orderForm {
+      	display: block !important;
+      	opacity: 1 !important;
+		/*transition: opacity 3s ease-out;
+		-moz-transition: opacity 3s ease-out;
+    	-webkit-transition: opacity 3s ease-out;
+    	-o-transition: opacity 3s ease-out;*/
+  	}
+
+	/*body.light-theme .marquee-horizontal-bottom {
+		box-shadow: 0 0 10px 0 hsla(0, 0.00%, 26.00%, 1.00);
+	}*/
+  
+    /* reset CSS */
+    body {
+      margin: 0;
+    }
+</style>
